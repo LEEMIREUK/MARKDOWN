@@ -18,7 +18,7 @@
 >```
 ## 3. 각 GameState별 다음 항목
 >+ TitleState
->   + asd
+>>
 >+ MenuState
 >+ GameState
 >
