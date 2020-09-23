@@ -15,6 +15,7 @@
 >TitleState
 >MenuState
 >GameState
+>Option
 >```
 ## 3. 각 GameState별 다음 항목
 >+ TitleState
@@ -23,7 +24,9 @@
 >   + 타이틀 화면 다음으로 나오는 화면이며 게임시작, 설정, 게임종료 등을 설정할 수 있는 화면입니다.
 >+ GameState
 >   + 본격적으로 게임 플레이를 보여주는 화면입니다.
->####      [그림 설명]
+>+ Option
+>   + 옵션에 관한 창을 띄워주는 State입니다.
+>####      [State ]
 >![다이어그램](https://user-images.githubusercontent.com/32861131/94072344-6f744e80-fe30-11ea-85a3-1085b3f51c99.PNG)
 ## 4. 필요한 기술
 >+ 이번 프로젝트에서 가장 중요한 기술은 충돌처리라고 생각합니다.
