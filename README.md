@@ -10,11 +10,11 @@
 >  총알은 무제한이며 아이템을 먹으면 점점 총알이 업그레이드 됩니다.
 >  죽으면 총알의 업그레이드는 리셋되며 목숨하나가 차감됩니다.
 ## 2. GameState
->'''
->TitleState
->MenuState
->GameState
->'''
+'''
+TitleState
+MenuState
+GameState
+'''
 >
 ## 3. 각 GameState별 다음 항목
 >
