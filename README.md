@@ -18,7 +18,7 @@
 >```
 ## 3. 각 GameState별 다음 항목
 >+ TitleState
->>
+>>> 게임 시작 전 타이틀 화면을 보여주는 State입니다.
 >+ MenuState
 >+ GameState
 >
