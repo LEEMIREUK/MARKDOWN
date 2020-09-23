@@ -21,13 +21,17 @@
 >+ TitleState
 >   + 게임 시작 전 타이틀 화면을 보여주는 State입니다.
 >   + 객체 목록: title_image
->   + 2초 후 Change_State를 이용해 MainState로 이동합니다.  
+>   + 2초 후 change_state를 이용해 MainState로 이동합니다.  
 >+ MainState
 >   + 타이틀 화면 다음으로 나오는 화면이며 게임시작, 설정, 게임종료 등을 설정할 수 있는 화면입니다.
+>   + 객체 목록: Main_image
+>   + 게임시작을 누르면 change_state를 통해 GameState로 이동합니다.
+>   + 설정을 누르면 push_state로 Option창을 띄워줍니다.
+>   + 게임종료를 누르면 종료됩니다.
 >+ GameState
 >   + 본격적으로 게임 플레이를 보여주는 화면입니다.
 >+ Option
->   + 옵션에 관한 창을 띄워주는 State입니다.
+>   + 옵션창을 띄워주는 State입니다.
 >#####      [State 구조]  
 >![State](https://user-images.githubusercontent.com/32861131/94073121-e4945380-fe31-11ea-8ecf-6f24025c12a0.PNG)
 ### 4. 필요한 기술
