@@ -27,7 +27,7 @@
 >+ Option
 >   + 옵션에 관한 창을 띄워주는 State입니다.
 >#####      [State 구조]  
->![다이어그램](https://user-images.githubusercontent.com/32861131/94072344-6f744e80-fe30-11ea-85a3-1085b3f51c99.PNG)
+![State](https://user-images.githubusercontent.com/32861131/94073121-e4945380-fe31-11ea-8ecf-6f24025c12a0.PNG)
 ### 4. 필요한 기술
 >+ 이번 프로젝트에서 가장 중요한 기술은 충돌처리라고 생각합니다.
 > 많은 객체들을 생성해야 하고, 각 객체마다 충돌처리가 가능해야 합니다.
