@@ -13,14 +13,16 @@
 >+ GameState는 크게 3가지이며 이름은 아래와 같습니다.
 >```
 >TitleState
->MenuState
+>MainState
 >GameState
 >Option
 >```
 ### 3. 각 GameState별 다음 항목
 >+ TitleState
 >   + 게임 시작 전 타이틀 화면을 보여주는 State입니다.
->+ MenuState
+>   + 객체 목록: title_image
+>   + 2초 후 Change_State를 이용해 MainState로 이동합니다.  
+>+ MainState
 >   + 타이틀 화면 다음으로 나오는 화면이며 게임시작, 설정, 게임종료 등을 설정할 수 있는 화면입니다.
 >+ GameState
 >   + 본격적으로 게임 플레이를 보여주는 화면입니다.
